@@ -64,6 +64,7 @@ form textarea {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
+  margin-top: rem;
   padding: .5rem 1rem;
 }
 
@@ -75,18 +76,21 @@ form textarea {
 }
 
 form button {
+  font-size: medium;
   background: none;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 1rem;
+  background-color: rgba(198, 76, 76, 0.792);
   text-transform: uppercase;
 }
 
 .site-footer {
-  padding: 2rem 0;
+  padding: 3rem 0;
+  font-size: xx-large;
 }
 
 p, li {
-  font-size: x-large;
+  font-size: large;
 }
 
 .skip-links{
@@ -101,4 +105,8 @@ p, li {
   color:white;
   padding: .5em 1em;
   font-weight: bold;
+}
+
+.skip-links a:focus{
+  top: 0;
 }
