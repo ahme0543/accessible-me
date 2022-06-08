@@ -87,6 +87,11 @@ form button {
 .site-footer {
   padding: 3rem 0;
   font-size: xx-large;
+  
+}
+
+.site-footer a {
+  color: rgb(39, 5, 97);
 }
 
 p, li {

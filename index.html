@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
+
+
+
 <body>
   
   
@@ -22,8 +25,11 @@
         <li><a href="#main-nav">Skip to main-nav</a></li>
         <li><a href="#main">Skip to main content</a></li>
       </ul>
-    <div class="site-header">
+     <!-- <div class="site-header"> -->
+    <div class="site-header" header role="banner">
       <h1>Jam Box Studios</h1>
+
+
       <div class="main-nav">
       <nav id="main-nav">
         <ul>
@@ -46,14 +52,26 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <div class="owner">
         <h1>Meet the owner</h1>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="name">John Doe</li>  
+          <li itemprop="jobTitle">CEO </li>
+          <li itemprop="email">johnjoe@jambox.ca</li>
+          <li itemprop="phone">613-000-0000</li>
+          <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="streetAddress">Jambox Studios </span>
+            <span itemprop="addressLocality">123 Guitar Road, </span>
+            <span itemprop="addressCountry">Musicville, Danceistan </span>.
+            <span itemprop="postalCode"> B3T 0L0 </span>
+          </li>
         </ul>
+      
+
+
+
+
         <h1>Address</h1>
-        <p 
+        <p>
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
@@ -104,7 +122,7 @@
 
     <footer role="contentinfo">
     <div class="site-footer">
-      &copy; 2021 Jam Box Studios <a href="#top">Back to top</a>
+      &copy; 2021 Jam Box Studios <a href="#top" aria-label="top button">Back to top</a>
     </div>
   </footer>
 
