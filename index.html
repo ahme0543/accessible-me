@@ -35,8 +35,9 @@
       </div>
       </nav>
     
+    
 
-      <img src="https://placekitten.com/1200/900" alt="cat"  class="banner">
+      <img src="https://placekitten.com/1200/900" alt="cat" aria-details="catimg"  class="banner">
     </div>
     <div class="main-content">
     <main id="main">
@@ -63,17 +64,22 @@
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label for="fullname">Full Name</label>
-          <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+          <input type="text" id="fullname" name="fullname" 
+          aria-label="text"
+          placeholder="Full Name">
 
          <!-- <input type="text" id="email" name="email" placeholder="Email"> -->
          <label for="youremail">Email </label>
          <input type="email" id="youremail" name="youremail"
+         aria-label="text"
          placeholder="Email">
           
          <label for="subject">Subject</label>
-         <input type="text" id="subject" name= "subject" placeholder="Subject">
+         <input type="text" id="subject" name= "subject" 
+         aria-label="text"
+         placeholder="Subject">
 
-         
+
          <!--<B>Your message</B> -->
 
 
@@ -86,16 +92,23 @@
          <!-- <label for="Your Message">Your Message</label>
          <textarea></textarea> -->
 
-        <button type="submit">Send</button> 
+       <button type="submit">Send</button> 
+
+       
           
        
 
         </form>
       </div>   
     </div>
+
+    <footer role="contentinfo">
     <div class="site-footer">
       &copy; 2021 Jam Box Studios <a href="#top">Back to top</a>
     </div>
+  </footer>
+
+  
   </div>
 </main>
 </body>
