@@ -13,8 +13,23 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
-  font-size: xxx-large;
+  
 }
+h1{
+  font-size: xxx-large;
+  color: rgba(130, 3, 28, 0.653);
+}
+
+h2,h3,h4,h5 {
+  font-size: xx-large;
+  font-weight: 700px;
+  color: rgba(130, 3, 28, 0.653);
+}
+
+h6 {
+  font-size: large;
+}
+
 
 .container {
   max-width: 1080px;
@@ -86,12 +101,13 @@ form button {
 
 .site-footer {
   padding: 3rem 0;
-  font-size: xx-large;
+  /* font-size: xx-large; */
   
 }
 
 .site-footer a {
   color: rgb(39, 5, 97);
+  
 }
 
 p, li {
